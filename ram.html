@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Ghimire</title>
+    <link rel="stylesheet" href="sita.css">
+    <script src="https://kit.fontawesome.com/76ca91c609.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+      <nav>
+        <img src="./onlinelogomaker-060623-1404-1943.png" class="logo">
+ <ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+ </ul>
+ <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>WEB DEVELOPER</p>
+        <h1>Hi, I'm <span>Anish</span><br> Ghimire from Nepal</h1>
+ 
+      </div>
+
+
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./IMG20230501145839 (2).jpg" width="330" height="520">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <br>
+                <p> As a web developer, I bring ideas to life through code. I specialize in building dynamic and
+                 interactive websites, crafting intuitive user experiences and seamless functionality. With 
+                 expertise in HTML, CSS, and JavaScript, I create responsive designs that work across various
+                  devices. I thrive on solving complex problems and staying up-to-date with the latest web 
+                  technologies. Whether it's front-end development or back-end programming, I strive to
+                   deliver high-quality solutions that meet the needs of clients and users.</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                   </div>
+                   <br><br>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web/App development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-Current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd. </li>
+                        <li><span>2016-2017</span><br>UI/UX Iternship at ekart ecommerce. </li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2015</span><br>MBA From Pokhara University .</li>
+                        <li><span>2014</span><br>BBA From Tribhuvan University.</li>
+                    </ul>
+                   </div>
+                  
+            </div>
+        </div>
+    </div>
+
+    </div>
+   <!---------Services----->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <br><br>
+                <h2>Web Design</h2>
+              
+                <p>Our web design services are tailored to help businesses create visually stunning and 
+                    highly functional websites. We understand the importance of a strong online presence, 
+                    and our team of talented designers works closely with clients to bring their visions
+                     to life. Let us help you create a visually stunning and impactful online platform
+                           that sets you apart from the competition.</p>
+                           <br><br>
+                           <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <br><br>
+                <h2>UI/UX Design</h2>
+              
+                <p>Our UI/UX design services focus on creating exceptional user experiences that seamlessly 
+                    blend form and function. We understand that a well-designed interface is crucial for 
+                    engaging users and achieving business objectives.
+                          Let us help you elevate your digital experience with our expert UI/UX design services.
+                        </p>
+                        <br><br><br>
+                        <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <br><br>
+                <h2>App Design</h2>
+         
+                <p>Our app design services are focused on creating visually stunning and highly intuitive 
+                    mobile applications. We understand that a well-designed app can significantly enhance 
+                    user engagement and drive business success. Our expertise 
+                      extends to both iOS and Android platforms, and we optimize our designs for various 
+                      screen sizes and resolutions. With our app design services, we can help you create 
+                      a captivating mobile experience that stands out in the crowded digital landscape.
+                        </p>
+                        
+                           <a href="#">Learn More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+   </div>
+   <!---------portfolio--------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <br>
+                    <p>Our team has developed a cutting-edge social media app that connects users worldwide 
+                        and fosters meaningful interactions. Designed with a focus on user engagement and 
+                        seamless functionality, our social media app offers a visually appealing interface
+                         and a wide range of features. Users can create profiles, post updates, share 
+                         multimedia content, and connect with friends and followers. Download it from play store.
+                        </p>  
+                        <br>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <br>
+                    <p>Our portfolio features an innovative music app designed to deliver an immersive and personalized 
+                        listening experience. With our app, users can explore a vast collection of songs, albums, and 
+                        playlists from various genres and artists.Whether you are 
+                        a music enthusiast or an artist looking for exposure,our music app offers a platform to enjoy and
+                         share your passion for music.
+                           
+                        </p>
+                        <br>
+                
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <br>
+                    <p>Our portfolio showcases an exceptional online shopping app that revolutionizes the way 
+                        users discover and purchase products.With our online shopping
+                        app, businesses can expand their reach, increase sales, and deliver exceptional customer 
+                        experiences in the digital marketplace.
+                        
+                            <br><br><br>
+                            </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                           
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+   </div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>ghimireanish511@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+9779869463722</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100073097071518"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  
+            
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name"placeholder="Your Name" required>
+                        <input type="email" name="email"placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ 2023 All rights reserved | Made With <i class="fa-solid fa-heart"></i> by Colorlib</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+                for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybfG0YFyEnzqrzuUtYI5U7qH80QMA5meUQt6G4xQwNcUTiTizW1uX-L4U-w0kGAgc6Mw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                       msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
